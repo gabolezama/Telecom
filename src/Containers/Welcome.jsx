@@ -18,11 +18,11 @@ export default function Welcome() {
       { english?
         <>
           <h1>WELCOME!!</h1>
-          <p>Please first select a city and then select the day you want to see the forecast from</p>
+          <p>Please select a city or select the day you want to see the forecast from</p>
         </>:
         <>
           <h1>Bienvenido!!</h1>
-          <p>Por Favor Selecciones una ciudad y luego selecciones el día para poder ver el pronóstico del Tiempo</p>
+          <p>Por favor seleccione una ciudad o el día para poder ver el pronóstico del Tiempo</p>
         </>
       }
     </div>

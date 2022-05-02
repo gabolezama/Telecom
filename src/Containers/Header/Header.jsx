@@ -12,6 +12,22 @@ export default function Header() {
 
   const navigate = useNavigate();
 
+  const dT = (dayString) =>{
+    if(english){
+      return dayString
+    }else{
+
+    const dayName = dayString.split(' ')[0]
+    const ordinal = dayString.split(' ')[1]
+
+    return dayName.length === 9? `Miércoles ${ordinal}`:
+           dayName.length === 8? `Jueves ${ordinal}`:
+           dayName.length === 7? `Martes ${ordinal}`:
+           dayName === 'Friday'? `Viernes ${ordinal}`: `Lunes ${ordinal}`
+    }
+  }
+  
+
   return (
     <Container>
       <Selections>
@@ -26,14 +42,14 @@ export default function Header() {
       </Selections>
       <Selections>
         <Link style={{textDecoration:'none'}} to={`/${city}/0`}><TabText>{t('HOY')}</TabText></Link>
-        <Link style={{textDecoration:'none'}} to={`/${city}/1`}><TabText>{moment().add(1, 'days').format('dddd Do')}</TabText></Link>
-        <Link style={{textDecoration:'none'}} to={`/${city}/2`}><TabText>{moment().add(2, 'days').format('dddd Do')}</TabText></Link>
-        <Link style={{textDecoration:'none'}} to={`/${city}/3`}><TabText>{moment().add(3, 'days').format('dddd Do')}</TabText></Link>
-        <Link style={{textDecoration:'none'}} to={`/${city}/4`}><TabText>{moment().add(4, 'days').format('dddd Do')}</TabText></Link>
-        <Link style={{textDecoration:'none'}} to={`/${city}/5`}><TabText>{moment().add(5, 'days').format('dddd Do')}</TabText></Link>
+        <Link style={{textDecoration:'none'}} to={`/${city}/1`}><TabText>{dT(moment().add(1, 'days').format('dddd D'))}</TabText></Link>
+        <Link style={{textDecoration:'none'}} to={`/${city}/2`}><TabText>{dT(moment().add(2, 'days').format('dddd D'))}</TabText></Link>
+        <Link style={{textDecoration:'none'}} to={`/${city}/3`}><TabText>{dT(moment().add(3, 'days').format('dddd D'))}</TabText></Link>
+        <Link style={{textDecoration:'none'}} to={`/${city}/4`}><TabText>{dT(moment().add(4, 'days').format('dddd D'))}</TabText></Link>
+        <Link style={{textDecoration:'none'}} to={`/${city}/5`}><TabText>{dT(moment().add(5, 'days').format('dddd D'))}</TabText></Link>
       </Selections>
       <div className="form-check form-switch" style={{ display:'flex', flexDirection: 'column'}}>
-        <label className="form-check-label" for="flexSwitch">{english? 'Language' : 'Idioma'}</label>
+        <label className="form-check-label" for="flexSwitch">{english? 'Language (English)' : 'Idioma (Español)'}</label>
         <input style={{marginLeft: 20}} value={english} className="form-check-input" type="checkbox" role="switch" id="flexSwitch" onClick={()=> setEnglish(!english)}/>
       </div>
     </Container>
