@@ -1,5 +1,5 @@
-import React, { useState, useContext } from 'react'
-import { AppContext } from '../AppContext';
+import React, { useContext } from 'react'
+import { AppContext } from '../../AppContext';
 import './Welcome.styles.css'
 
 export default function Welcome() {

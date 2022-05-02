@@ -1,4 +1,5 @@
 {
+  "homepage":"https://gabolezama.github.io/Telecom",
   "name": "weather-forecast",
   "version": "0.1.0",
   "private": true,
@@ -17,6 +18,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "jest --verbose",
@@ -43,6 +46,7 @@
   "devDependencies": {
     "@babel/plugin-syntax-jsx": "^7.16.7",
     "@babel/preset-react": "^7.16.7",
+    "gh-pages": "^3.2.3",
     "styled-components": "^5.3.5"
   }
 }

@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './Containers/Header/Header';
 import moment from 'moment';
-import Welcome from './Containers/Welcome';
+import Welcome from './Containers/Welcome/Welcome';
 import InfoContainer from './Containers/ShowInfo/InfoContainer';
 import { AppContextProvider } from './AppContext';
 
