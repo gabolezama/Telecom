@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
       <Header/>
       <Routes>
-          <Route path="/" element={<Welcome/>} />
+          <Route path="" element={<Welcome/>} />
           <Route path="/:lat/:long/:index" element={<InfoContainer/>} />
       </Routes>
     </BrowserRouter>
