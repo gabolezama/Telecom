@@ -1,0 +1,43 @@
+{
+    "Prevision para el" : "Forecast for date",
+    "Promedio del día" : "Day's Averge",
+    "Mínima" : "Minimum",
+    "Máxima" : "Maximum",
+    "Amanecer" : "Dawn",
+    "Ocaso" : "Sunset",
+    "°C": "°F",
+
+    "Sensación Térmica" : "Feels Like",
+    "Por la mañana": "In the morning",
+    "Por la tarde" : "In the evening",
+    "Por la noche" : "At night",
+    
+    "Condiciones Atmosféricas" : "Atmospeheric Conditions",
+    "Nubes": "Clouds",
+    "Presión" : "Pressure",
+    "Humedad" : "Humidity",
+
+    "Previsión del Viento": "Wind Forecast",
+    "Velocidad del Viento": "Wind Speed",
+    "Ráfagas de Viento": "Wind Gusts",
+    "Inclinación del Viento": "Wind Degrees",
+
+    "Fase": "Phase",
+    "Sobre la Luna": "About the Moon",
+    "Aparición": "Shows at",
+    "Desaparición": "Vanishes at",
+
+    "Luna Nueva": "New Moon",
+    "Cuarto Creciente": "First Quarter",
+    "Luna Llena": "Full Moon",
+    "Cuarto Menguante": "Last Quarter",
+    
+    "grados": "degrees",
+    "HOY" : "Today",
+    "Seleccione una ciudad": "Please Select a City",
+    "Para este día se espera": "This day it will be",
+    "Estas son las condiciones de viento esperada para la fecha": "These are the expected wind conditions for the given date",
+    "La siguiente es la sensación térmica esperada para la fecha": "The following description indicates the Feel Like temparure",
+    "Las siguientes son las condiciones de la admosfera previstas para la fecha": "The following are the expected atmospheric conditions for the given date",
+    "Información el estado lunar para la fecha indicada": "Information about the moon state expected for the given date"
+}
