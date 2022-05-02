@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Telecom/static/css/main.0acd00eb.css",
+    "main.js": "/Telecom/static/js/main.d25253a6.js",
+    "static/js/787.2a38e5c6.chunk.js": "/Telecom/static/js/787.2a38e5c6.chunk.js",
+    "index.html": "/Telecom/index.html",
+    "main.0acd00eb.css.map": "/Telecom/static/css/main.0acd00eb.css.map",
+    "main.d25253a6.js.map": "/Telecom/static/js/main.d25253a6.js.map",
+    "787.2a38e5c6.chunk.js.map": "/Telecom/static/js/787.2a38e5c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0acd00eb.css",
+    "static/js/main.d25253a6.js"
+  ]
+}
