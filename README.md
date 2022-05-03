@@ -1,5 +1,7 @@
 # Wether Forecast - Telecom
 
+![image](https://user-images.githubusercontent.com/39780800/166599962-6eb9fe0c-c1dd-423d-962a-074f31f8754a.png)
+
 ![image](https://user-images.githubusercontent.com/39780800/166231967-ecb41f0f-20cc-4a80-b3e1-ee52d79a1ba5.png)
 
 *Weather Forecast* es un aplicativo web que realiza una consulta del pronóstico del tiempo para una ciudad y una fecha en concreto. Se ha agregado la función para mostrar la información en español o inglés y en formato de unidades métricas internacionales o en el sistema imperial (dependiendo el idioma)
