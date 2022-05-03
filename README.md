@@ -9,16 +9,16 @@ Realizado por: Freddy Lezama [github](https://github.com/gabolezama/Telecom)
 ### CARACTERISTICAS
 
 - Consume principalmente la [Open Weather Map API](https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}&units='imperial/metric') para obtener listado de conmodities y precios
-- Realizado con componentes funcionales
-- Drawer Navigation
-- Redux Thunk
+- Realizado con componentes funcionales y Hooks
+- React Router
+- React Context
 
 
 ### HERRAMIENTAS UTILIZADAS 
 
 - **ReactJS**
 - **Open Weather Map API**
-- **Context**
+- **Visual Studio Code**
 
 ### COMO LO PRUEBO?
 
